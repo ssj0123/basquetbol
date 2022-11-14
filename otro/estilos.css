@@ -1,0 +1,50 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+header{
+	display: flex;
+	height: 70px;
+	background-color: BLACK;
+
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+
+}
+.logo{
+	display: flex;
+}
+
+.logo img{
+	height: 50px;
+	align-items: center;
+	margin-right: 10px;
+
+
+
+}
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+nav{
+	font-weight: 600;
+	padding-right: 10px;
+
+}
+nav a:hover{
+	color: white;
+
+}
+
+@media (max-width:700px){
+	header{
+		flex-direction: column;
+	}
+
+	nav{
+		padding:10px 0px;
+	}
+}

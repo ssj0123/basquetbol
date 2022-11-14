@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	background: #171717;
+	position: fixed;
+	width: 100%;
+	z-index: 100%;
+}
+
+.navbar{
+	display: flex;
+	margin-right: 10px;
+}
+
+.logo{
+	margin-left: 30px;
+}
+
+.logo img{
+    height: 50px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar a{
+	display: block;
+	padding: 20px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar a:hover{
+	background: #3f3f3f;
+}
+
+ /* cabezera */ 
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header{
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/1.jpg);
+    background-size: cover;
+}
+
+ /* que es el basquetbol  */
+.qué{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ /* Características del básquetbol  */
+.Características{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Reglas del básquetbol  */
+.reglas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Elementos del básquetbol  */
+.elementos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Fundamentos del básquetbol  */
+.Fundamentos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/6.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* NBA  */
+.NBA{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Historia del básquetbol  */
+.historia{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/8.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Jugadores reconocidos de básquetbol  */
+.jugadores{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh !important;
+	background-image: 
+    linear-gradient(0deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) 
+    ,url(img/9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.title{
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+p{
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.btn{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 10px 40px;
+	border: 2px solid #9c27b0;
+	color: #fff;
+	text-decoration: none;
+	background: #9c27b0;
+}
+
+.btn:hover{
+	background: none;
+}
+
+.btn-home{
+	display: flex;
+}
+
+.btn-home{
+	margin:0 10px;
+}
+
+.content{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p,a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+
